@@ -140,7 +140,7 @@ const Product = () => {
             </tbody>
           </table>
         </div>
-        <table className="product-details_info_item_specs">
+        <table className="product-details_info_item_features">
           <tbody>
             <tr key="Category">
               <td>Category</td>

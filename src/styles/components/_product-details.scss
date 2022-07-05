@@ -9,7 +9,6 @@
   }
 
   &_box {
-    border: 5px solid darkblue;
     width: 20%;
     @include tablet {
       width: 80%;
@@ -46,7 +45,6 @@
     &_main {
       padding-top: 0%;
       position: relative;
-      border: 5px solid darkblue;
       
     }
   }
@@ -86,6 +84,20 @@
             font-size: 1.5rem;
             padding: 5px 2px;
             border-bottom: 1px solid $txt-second-color;
+          }
+        }
+      }
+      &_features {
+        width: 100%;
+        border-collapse: collapse;
+        tr {
+          td:nth-child(1) {
+            width: 10%;
+          }
+          td {
+            font-size: 1rem;
+            padding: 5px 2px;
+            border-bottom: 1px solid black;
           }
         }
       }
