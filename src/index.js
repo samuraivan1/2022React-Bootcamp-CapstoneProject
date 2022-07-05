@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 
 import "./assets/boxicons/css/boxicons.min.css";
-import "./sass/index.scss";
+import "./styles/index.scss";
 
 ReactDOM.render(
   <React.StrictMode>
