@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 
 import "./assets/boxicons/css/boxicons.min.css";
-import "./styles/index.scss";
+import './sass/index.scss'
 // Import Swiper styles
 import "swiper/swiper.scss";
 
